@@ -2,8 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Girassol&family=Rubik+Scribble&family=Sriracha&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Girassol&family=Rubik+Scribble&family=Sriracha&display=swap');
+
 :root{
-    --font1: font-family: "Rubik Scribble", system-ui;
+    --font1: 'Rubik Scribble', system-ui;
+    --font2: "Dancing Script", cursive
 }
 *{
     padding: 0px;
@@ -15,13 +18,40 @@ html, body{
 }
 section.texto{
     background-color:white;
+
 }
 header{
-    font-family: var(--font1);
+    
     padding: 55px;
     background-color:black;}
     header p, h1{
+        font-family: "Rubik Scribble", system-ui;
+        font-size: 2em;
         color: white;
         text-align: center;
+    }
+    .texto p{
+        font-family: var(--font2);
+        font-size: 2em;
+        line-height: 1em;
+    }
+    section#imagem1{
+        
+        background-image: url(imagens/tarsila.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+       
+        
+    }
+    section{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em ;
+        padding-left: 30px;
+        font-family: var(--font2);
+        font-size: 2.2vw;
     }
     
